@@ -7,8 +7,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Base path cho GitHub Pages - thay 'tracnghiem' bằng tên repo của bạn
-  base: process.env.NODE_ENV === 'production' ? '/tracnghiem/' : '/',
+  // Base path cho GitHub Pages - thay 'trac-nghiem' bằng tên repo của bạn
+  base: process.env.NODE_ENV === 'production' ? '/trac-nghiem/' : '/',
   plugins: [
     vue(),
     vueJsx(),
